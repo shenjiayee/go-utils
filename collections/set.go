@@ -1,6 +1,6 @@
 package collections
 
-import "go-utils/slices"
+import "github.com/shenjiayee/go-utils/slices"
 
 // Set 集合
 type Set[T comparable] map[T]struct{}

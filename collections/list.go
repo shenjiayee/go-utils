@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"errors"
 
-	"go-utils/lock"
+	"github.com/shenjiayee/go-utils/lock"
 )
 
 var KeyError = errors.New("keyFn error")
