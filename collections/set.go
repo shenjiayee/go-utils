@@ -1,6 +1,6 @@
 package collections
 
-import "valuation_process/utils/slices"
+import "go-utils/slices"
 
 // Set 集合
 type Set[T comparable] map[T]struct{}
